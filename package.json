@@ -15,7 +15,6 @@
     "react": "^19.1.0",
     "react-big-calendar": "^1.19.4",
     "react-confetti": "^6.4.0",
-    "react-custom-roulette": "^1.4.1",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2"
   },
