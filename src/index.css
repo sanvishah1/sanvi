@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌸 Y2K Planner Calendar Styling */
+.rbc-calendar {
+  background-color: #fff0f7;
+  font-family: "Comfortaa", cursive;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.3);
+}
+
+.rbc-toolbar {
+  background: #ffebf0;
+  padding: 1rem;
+  font-weight: bold;
+  color: #d63384;
+  font-size: 1.1rem;
+  border-bottom: 2px dashed #ffa3cf;
+}
+
+.rbc-btn-group button {
+  background: #ffb3d9;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 4px;
+  border-radius: 10px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.rbc-btn-group button:hover {
+  background: #ff69b4;
+}
+
+.rbc-event {
+  background-color: #ff91c7 !important;
+  border-radius: 12px !important;
+  font-size: 0.9rem;
+  padding: 2px 8px;
+  border: 2px dashed white;
+}
+
+.rbc-today {
+  background-color: #ffe5ec !important;
+}
+
+.rbc-day-bg.rbc-today {
+  background-color: #fff3f8 !important;
+}
